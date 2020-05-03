@@ -1289,9 +1289,9 @@ const test = ({a, b, c=()=>({active:false}) }) => {};
     a = {},
 //    ^ keyword.operator.assignment
 //      ^^ punctuation.section.block
-//        ^ punctuation.separator.parameter - keyword.operator.comma
+//        ^ punctuation.separator.comma - keyword.operator.comma
     b,
-//   ^ punctuation.separator.parameter - keyword.operator.comma
+//   ^ punctuation.separator.comma - keyword.operator.comma
 }) => null;
 // ^^ storage.type.function.arrow
 
